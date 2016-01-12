@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "2.2.1"
 
 
 gem 'rails', '4.2.4'
@@ -10,7 +11,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'react-rails'
+gem 'react-rails', '~> 1.5.0'
 
 group :development, :test do
   gem 'byebug'
